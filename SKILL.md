@@ -1,17 +1,19 @@
 ---
 name: openclaw-encyclopedia
 description: >-
-  OpenClaw documentation-first workflow for OpenClaw-specific questions,
-  troubleshooting, command planning, configuration review, automation design,
-  cron/heartbeat behavior, gateway/runtime diagnostics, skills
-  loading/configuration, nodes, channels, sessions, security, and operational
-  guidance. Use when the request is specifically about OpenClaw itself: the
-  openclaw CLI, gateway, agents, sessions, channels, nodes, plugins, pairings,
-  dashboard/control UI, openclaw.json, cron jobs, heartbeats, approvals,
-  sandboxing, messaging behavior, or OpenClaw skill loading, gating,
-  install/update, and configuration. Do not use for generic prompt-writing or
-  generic SKILL.md/AGENTS.md authoring unless the question is specifically
-  about OpenClaw skill behavior or configuration.
+  OpenClaw product/runtime/configuration documentation-first workflow for
+  OpenClaw-specific questions, troubleshooting, command planning,
+  configuration review, automation design, cron/heartbeat behavior,
+  gateway/runtime diagnostics, skill loading/configuration,
+  channel/session/node behavior, security, and operational guidance. Use when
+  the request is specifically about OpenClaw itself: the `openclaw` CLI,
+  gateway, agents, sessions, channels, nodes, plugins, pairings, Control UI/
+  dashboard, `openclaw.json`, cron jobs, heartbeats, approvals, sandboxing,
+  provider routing, messaging behavior, or OpenClaw skill
+  loading/gating/install/update. Do not use for generic agent prompting,
+  generic SKILL.md/AGENTS.md authoring, generic Linux/systemd administration,
+  or generic chat-assistant design unless the question is specifically about
+  OpenClaw behavior or configuration.
 metadata: {"openclaw":{"emoji":"🦀","homepage":"https://docs.openclaw.ai"}}
 ---
 
@@ -21,12 +23,14 @@ metadata: {"openclaw":{"emoji":"🦀","homepage":"https://docs.openclaw.ai"}}
 
 Use a docs-first workflow for OpenClaw work. Prefer the official OpenClaw documentation at `https://docs.openclaw.ai/`, consult cached local copies under `.OpenClaw-Encyclopedia/` before re-fetching, and record useful official-doc excerpts plus environment-specific operational learnings so future work gets faster and safer.
 
+This skill is for **OpenClaw product/runtime/config semantics**. It should trigger for real OpenClaw behavior, configuration, and operational questions — not for generic agent-writing, generic prompt design, or generic host-admin work that just happens to be happening on an OpenClaw machine.
+
 ## Workflow
 
 1. **Classify the task**
    - Decide whether the task is an OpenClaw question, troubleshooting task, command-planning task, config review, automation/design task, or live operational task.
    - Use this skill when the request is specifically about OpenClaw product behavior, configuration, commands, session/channel/node behavior, automation, pairings, or skill loading/configuration.
-   - Do not use this skill for generic skill-writing, generic prompt/instruction design, or generic markdown/config editing unless the question is specifically about OpenClaw behavior.
+   - Do not use this skill for generic skill-writing, generic prompt/instruction design, generic markdown/config editing, or generic Linux/systemd admin unless the question is specifically about OpenClaw behavior.
 
 2. **Check local cache first**
    - Use `.OpenClaw-Encyclopedia/` as the local knowledge/cache root.
