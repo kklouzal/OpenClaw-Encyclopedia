@@ -1,6 +1,17 @@
 ---
 name: openclaw-encyclopedia
-description: OpenClaw documentation-first workflow for OpenClaw-specific questions, troubleshooting, command planning, configuration review, automation design, cron/heartbeat behavior, gateway/runtime diagnostics, skills loading/configuration, nodes, channels, sessions, security, and operational guidance. Use when the request is specifically about OpenClaw itself: the openclaw CLI, gateway, agents, sessions, channels, nodes, plugins, pairings, dashboard/control UI, openclaw.json, cron jobs, heartbeats, approvals, sandboxing, messaging behavior, or OpenClaw skill loading, gating, install/update, and configuration. Do not use for generic prompt-writing or generic SKILL.md/AGENTS.md authoring unless the question is specifically about OpenClaw skill behavior or configuration.
+description: >-
+  OpenClaw documentation-first workflow for OpenClaw-specific questions,
+  troubleshooting, command planning, configuration review, automation design,
+  cron/heartbeat behavior, gateway/runtime diagnostics, skills
+  loading/configuration, nodes, channels, sessions, security, and operational
+  guidance. Use when the request is specifically about OpenClaw itself: the
+  openclaw CLI, gateway, agents, sessions, channels, nodes, plugins, pairings,
+  dashboard/control UI, openclaw.json, cron jobs, heartbeats, approvals,
+  sandboxing, messaging behavior, or OpenClaw skill loading, gating,
+  install/update, and configuration. Do not use for generic prompt-writing or
+  generic SKILL.md/AGENTS.md authoring unless the question is specifically
+  about OpenClaw skill behavior or configuration.
 metadata: {"openclaw":{"emoji":"🦀","homepage":"https://docs.openclaw.ai"}}
 ---
 
