@@ -1,6 +1,6 @@
 ---
 name: openclaw-encyclopedia
-description: OpenClaw documentation-first workflow for questions, troubleshooting, command planning, configuration review, automation design, cron/heartbeat behavior, gateway/runtime diagnostics, skills work, nodes, channels, sessions, security, and operational guidance. Use whenever OpenClaw, openclaw, gateway, agent, skill, SKILL.md, AGENTS.md integration points, cron jobs, heartbeats, sessions, channels, nodes, plugins, hooks, pairings, dashboard, control UI, config, openclaw.json, CLI commands, runtime behavior, sandboxing, approvals, messaging surfaces, or OpenClaw device/gateway management is mentioned, implied, or required. Also use before answering direct or indirect OpenClaw questions and before performing direct OpenClaw configuration, CLI, or operational work.
+description: OpenClaw documentation-first workflow for OpenClaw-specific questions, troubleshooting, command planning, configuration review, automation design, cron/heartbeat behavior, gateway/runtime diagnostics, skills loading/configuration, nodes, channels, sessions, security, and operational guidance. Use when the request is specifically about OpenClaw itself: the openclaw CLI, gateway, agents, sessions, channels, nodes, plugins, pairings, dashboard/control UI, openclaw.json, cron jobs, heartbeats, approvals, sandboxing, messaging behavior, or OpenClaw skill loading, gating, install/update, and configuration. Do not use for generic prompt-writing or generic SKILL.md/AGENTS.md authoring unless the question is specifically about OpenClaw skill behavior or configuration.
 metadata: {"openclaw":{"emoji":"🦀","homepage":"https://docs.openclaw.ai"}}
 ---
 
@@ -14,7 +14,8 @@ Use a docs-first workflow for OpenClaw work. Prefer the official OpenClaw docume
 
 1. **Classify the task**
    - Decide whether the task is an OpenClaw question, troubleshooting task, command-planning task, config review, automation/design task, or live operational task.
-   - If any meaningful OpenClaw dependency exists, use this skill.
+   - Use this skill when the request is specifically about OpenClaw product behavior, configuration, commands, session/channel/node behavior, automation, pairings, or skill loading/configuration.
+   - Do not use this skill for generic skill-writing, generic prompt/instruction design, or generic markdown/config editing unless the question is specifically about OpenClaw behavior.
 
 2. **Check local cache first**
    - Use `.OpenClaw-Encyclopedia/` as the local knowledge/cache root.
